@@ -1,0 +1,17 @@
+calendly:
+  token:  ''    #Put your calendly token here
+  timezone: -5.0  #e.g. GMT-5
+logging:
+  path: logs # Full Path to the log directory
+  log_level: DEBUG # Log Level: INFO | DEBUG | WARNING | ERROR
+  date_format: "%m-%d-%Y %H:%M:%S" # Date format for log messages
+  log_format: "%(asctime)-15s [%(levelname)s]: %(message)s" # Log Message Format
+  retention: 90
+smtp:
+  sender_email: ''  #the FROM: email
+  smtp_server: 'smtp.gmail.com'
+  smtp_port: 587
+  app_passwd: ""  #google API app password
+  text_recip: ""  #The text recipient (or email)
+hashes:
+  file: "hashes.txt"
